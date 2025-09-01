@@ -60,12 +60,13 @@
 
         .security-tip-icon {
           width: 100% !important;
-          text-align: center !important;
+          text-align: left !important;
           margin-bottom: 16px !important;
         }
 
         .security-tip-content {
           width: 100% !important;
+          text-align: left !important;
         }
       }
     </mj-style>
@@ -136,7 +137,7 @@
                 <mj-image src="../imgs/brown-shield.svg" alt="Security Shield" width="56px" height="56px" padding="0" />
               </mj-column>
 
-              <mj-column vertical-align="top" width="100%">
+              <mj-column vertical-align="top" width="100%" css-class="security-tip-content">
                 <mj-text font-weight="600" font-size="20px" color="#693D11" padding="0 0 8px 0">
                   Security tip:
                 </mj-text>
