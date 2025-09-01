@@ -98,15 +98,15 @@
 
         <!-- Main Message -->
         <mj-text color="#667085" font-size="16px" padding="0 0 16px 0">
-          <span style="color: #0A243D; font-weight: 500;">Kevin Figueiredo</span> acabou de criar uma conta na Termloans e convidou você para se juntar como sócio. 🚀
+          <span style="color: #0A243D; font-weight: 500;">Kevin Figueiredo</span> just created a Termloans account and invited you to join as a partner. 🚀
         </mj-text>
 
         <mj-text color="#667085" font-size="16px" padding="0 0 16px 0">
-          Aqui, vocês poderão gerenciar juntos tudo o que precisam em um só lugar, com segurança e transparência.
+          Here, you can manage everything you need together in one place, with security and transparency.
         </mj-text>
 
         <mj-text color="#667085" font-size="16px" padding="0 0 32px 0">
-          A presença de todos os sócios é fundamental para fortalecer o perfil da empresa e aumentar as chances de aprovação em financiamentos futuros. Quando todos os sócios estão conectados:
+          The presence of all partners is essential to strengthen the company's profile and increase approval chances for future financing. When all partners are connected:
         </mj-text>
 
         <mj-body width="100%" css-class="partner-groups-container">
@@ -116,7 +116,7 @@
                 <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
               </mj-column>
               <mj-column width="350px" padding="0">
-                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">A análise de crédito se torna mais rápida e transparente.</mj-text>
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">Credit analysis becomes faster and more transparent.</mj-text>
                 <mj-divider border-color="#D0D5DD" border-width="1px" padding="24px 0 24px 0" />
               </mj-column>
             </mj-body>
@@ -125,7 +125,7 @@
                 <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
               </mj-column>
               <mj-column width="350px" padding="0">
-                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">A empresa ganha mais credibilidade diante dos bancos e investidores.</mj-text>
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">The company gains more credibility with banks and investors.</mj-text>
                 <mj-divider border-color="#D0D5DD" border-width="1px" padding="24px 0 24px 0" />
               </mj-column>
             </mj-body>
@@ -134,7 +134,7 @@
                 <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
               </mj-column>
               <mj-column width="350px" padding="0">
-                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">O acesso a linhas de crédito e oportunidades financeiras se amplia.</mj-text>
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">Access to credit lines and financial opportunities expands.</mj-text>
                 <mj-divider border-color="#D0D5DD" border-width="1px" padding="24px 0 24px 0" />
               </mj-column>
             </mj-body>
@@ -143,7 +143,7 @@
                 <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
               </mj-column>
               <mj-column width="350px" padding="0">
-                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">A gestão da conta fica centralizada em um só lugar, com mais segurança e praticidade.</mj-text>
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">Account management becomes centralized in one place, with more security and practicality.</mj-text>
               </mj-column>
             </mj-body>
           </mj-section>
@@ -152,16 +152,16 @@
         <mj-body width="100%" css-class="partner-groups-container" padding="32px 0 0 0">
           <mj-section background-color="#F2F4F7" border-radius="12px" padding="32px">
             <mj-column>
-              <mj-text>👉 Para aceitar o convite e ativar sua conta, basta clicar no botão abaixo:</mj-text>
+              <mj-text>👉 To accept the invitation and activate your account, just click the button below:</mj-text>
               <mj-button background-color="#6CC24A" color="#ffffff" font-size="16px" font-weight="600" border-radius="6px" href="https://seulink.com" align="center" padding="24px 0 0 0" inner-padding="16px 24px" width="100%">
-                ACEITAR CONVITE
+                ACCEPT INVITATION
               </mj-button>
             </mj-column>
           </mj-section>
         </mj-body>
 
         <mj-text color="#667085" font-size="16px" padding="48px 0 48px 0" align="center">
-          Unidos, aumentamos o potencial de crescimento da Termloans e abrimos caminho para conquistar novas oportunidades de financiamento e investimento.
+          Together, we increase Termloans' growth potential and pave the way to achieve new financing and investment opportunities.
         </mj-text>
 
 
@@ -186,7 +186,7 @@
         </mj-body>
 
         <!-- Support Contact Section -->
-        <mj-text color="#667085" font-size="18px" padding="32px 0 24px 0">
+        <mj-text color="#667085" font-size="18px" padding="48px 0 24px 0">
           If you need assistance or have any questions, our <span class="link-blue">support team</span> is ready to help. Don't hesitate to contact us!
         </mj-text>
 
