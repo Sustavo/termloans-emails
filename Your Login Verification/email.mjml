@@ -64,12 +64,12 @@
   <mj-body background-color="#ffffff">
     <!-- Main Content Section -->
     <mj-section background-color="#ffffff" padding="16px 0">
-      <mj-column width="696px">
+      <mj-column width="600px">
         <!-- Hero Images (Responsive) -->
-        <mj-image src="../imgs/verification-code.svg" alt="Termloans Security" width="696px" border-radius="8px" css-class="desktop-image" padding="0 0 44px 0" />
-        <mj-image src="../imgs/mobile-verification-code.svg" alt="Termloans Security" width="696px" height="373px" border-radius="8px" css-class="mobile-image" padding="0 0 44px 0" />
+        <mj-image src="../imgs/verification-code.svg" alt="Termloans Security" border-radius="8px" css-class="desktop-image" padding="0 0 44px 0" />
+        <mj-image src="../imgs/mobile-verification-code.svg" alt="Termloans Security" height="373px" border-radius="8px" css-class="mobile-image" padding="0 0 44px 0" />
       </mj-column>
-      <mj-column width="100%">
+      <mj-column width="100%" padding="0 72px">
         <!-- Greeting -->
         <mj-text font-size="20px" font-weight="600" color="#0A243D" padding="0 0 24px 0">
           Hello, Chrystyan!
@@ -120,22 +120,24 @@
         </mj-text>
 
         <!-- Security Tip Section -->
-        <mj-section background-color="#FEF7EC" border-radius="12px" padding="32px">
-          <mj-group>
-            <mj-column width="56px" vertical-align="top">
-              <mj-image src="../imgs/brown-shield.svg" alt="Security Shield" width="56px" height="56px" padding="0" />
-            </mj-column>
+        <mj-body background-color="#FEF7EC" border-radius="12px">
+          <mj-section background-color="#FEF7EC" border-radius="12px" padding="32px">
+            <mj-group>
+              <mj-column width="56px" vertical-align="top">
+                <mj-image src="../imgs/brown-shield.svg" alt="Security Shield" width="56px" height="56px" padding="0" />
+              </mj-column>
 
-            <mj-column vertical-align="top" width="100%">
-              <mj-text font-weight="600" font-size="20px" color="#693D11" padding="0 0 8px 0">
-                Security tip:
-              </mj-text>
-              <mj-text color="#693D11" padding="0">
-                For security reasons, we recommend that you change your password after your first login. Doing this helps us protect your data and keep your account as secure as possible.
-              </mj-text>
-            </mj-column>
-          </mj-group>
-        </mj-section>
+              <mj-column vertical-align="top" width="100%">
+                <mj-text font-weight="600" font-size="20px" color="#693D11" padding="0 0 8px 0">
+                  Security tip:
+                </mj-text>
+                <mj-text color="#693D11" padding="0">
+                  For security reasons, we recommend that you change your password after your first login. Doing this helps us protect your data and keep your account as secure as possible.
+                </mj-text>
+              </mj-column>
+            </mj-group>
+          </mj-section>
+        </mj-body>
 
         <!-- Support Contact Section -->
         <mj-text color="#667085" font-size="18px" padding="32px 0 24px 0">
@@ -158,8 +160,8 @@
     </mj-section>
 
     <!-- Footer Section -->
-    <mj-section background-color="#F2F4F7" border-radius="12px" padding="48px 32px">
-      <mj-column width="100%">
+    <mj-section background-color="#F2F4F7" border-radius="12px" padding="48px 0px">
+      <mj-column>
         <!-- Logo -->
         <mj-image src="../imgs/logo.svg" alt="Termloans Logo" width="192px" padding="0 0 32px 0" />
 
@@ -170,19 +172,19 @@
         <mj-body>
           <mj-group width="100%">
             <mj-column width="20%">
-              <mj-image src="../imgs/facebook.svg" alt="Facebook" width="24px" padding="0" />
+              <mj-image src="../imgs/facebook.svg" alt="Facebook" width="24px" height="24px" padding="0" />
             </mj-column>
             <mj-column width="20%">
-              <mj-image src="../imgs/Instagram.svg" alt="Instagram" width="24px" padding="0" />
+              <mj-image src="../imgs/Instagram.svg" alt="Instagram" width="24px" height="24px" padding="0" />
             </mj-column>
             <mj-column width="20%">
-              <mj-image src="../imgs/Youtube.svg" alt="YouTube" width="24px" padding="0" />
+              <mj-image src="../imgs/Youtube.svg" alt="YouTube" width="24px" height="24px" padding="0" />
             </mj-column>
             <mj-column width="20%">
-              <mj-image src="../imgs/Twitter.svg" alt="Twitter" width="24px" padding="0" />
+              <mj-image src="../imgs/Twitter.svg" alt="Twitter" width="24px" height="24px" padding="0" />
             </mj-column>
             <mj-column width="20%">
-              <mj-image src="../imgs/linkedin.svg" alt="LinkedIn" width="24px" padding="0" />
+              <mj-image src="../imgs/linkedin.svg" alt="LinkedIn" width="24px" height="24px" padding="0" />
             </mj-column>
           </mj-group>
         </mj-body>
