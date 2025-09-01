@@ -88,7 +88,7 @@
       <mj-column width="600px">
         <!-- Hero Images (Responsive) -->
         <mj-image src="../imgs/partner-invitation.svg" alt="Termloans Security" border-radius="8px" css-class="desktop-image" padding="0 0 0 0" />
-        <mj-image src="../imgs/mobile-verification-code.svg" alt="Termloans Security" height="373px" border-radius="8px" css-class="mobile-image" padding="0 0 44px 0" />
+        <mj-image src="../imgs/mobile-partner-invitation.svg" alt="Termloans Security" height="373px" border-radius="8px" css-class="mobile-image" padding="0 0 44px 0" />
       </mj-column>
       <mj-column width="100%" padding="0 72px">
         <!-- Greeting -->
