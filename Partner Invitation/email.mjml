@@ -45,6 +45,17 @@
         display: none !important;
       }
 
+      .partner-groups-container {
+        display: flex !important;
+        flex-direction: column !important;
+      }
+
+      .partner-groups-container .mj-group {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 0 !important;
+      }
+
       @media only screen and (max-width: 640px) {
         .desktop-image {
           display: none !important;
@@ -76,7 +87,7 @@
     <mj-section background-color="#ffffff" padding="16px 0">
       <mj-column width="600px">
         <!-- Hero Images (Responsive) -->
-        <mj-image src="../imgs/partner-invitation.svg" alt="Termloans Security" border-radius="8px" css-class="desktop-image" padding="0 0 44px 0" />
+        <mj-image src="../imgs/partner-invitation.svg" alt="Termloans Security" border-radius="8px" css-class="desktop-image" padding="0 0 0 0" />
         <mj-image src="../imgs/mobile-verification-code.svg" alt="Termloans Security" height="373px" border-radius="8px" css-class="mobile-image" padding="0 0 44px 0" />
       </mj-column>
       <mj-column width="100%" padding="0 72px">
@@ -94,50 +105,62 @@
           Aqui, vocês poderão gerenciar juntos tudo o que precisam em um só lugar, com segurança e transparência.
         </mj-text>
 
-        <mj-text color="#667085" font-size="16px" padding="0 0 16px 0">
+        <mj-text color="#667085" font-size="16px" padding="0 0 32px 0">
           A presença de todos os sócios é fundamental para fortalecer o perfil da empresa e aumentar as chances de aprovação em financiamentos futuros. Quando todos os sócios estão conectados:
         </mj-text>
 
-        <mj-body>
+        <mj-body width="100%" css-class="partner-groups-container">
           <mj-section background-color="#F2F4F7" border-radius="12px" padding="32px">
-            <mj-group>
+            <mj-body>
               <mj-column width="34px" vertical-align="top" css-class="security-tip-icon">
                 <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
               </mj-column>
               <mj-column width="350px" padding="0">
-                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D">A análise de crédito se torna mais rápida e transparente</mj-text>
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">A análise de crédito se torna mais rápida e transparente.</mj-text>
                 <mj-divider border-color="#D0D5DD" border-width="1px" padding="24px 0 24px 0" />
               </mj-column>
-            </mj-group>
-            <mj-group>
+            </mj-body>
+            <mj-body>
               <mj-column width="34px" vertical-align="top" css-class="security-tip-icon">
                 <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
               </mj-column>
               <mj-column width="350px" padding="0">
-                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D">A empresa ganha mais credibilidade diante dos bancos e investidores</mj-text>
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">A empresa ganha mais credibilidade diante dos bancos e investidores.</mj-text>
                 <mj-divider border-color="#D0D5DD" border-width="1px" padding="24px 0 24px 0" />
               </mj-column>
-            </mj-group>
-
-            <!-- <mj-group css-class="security-tip-group">
-              <mj-column width="56px" vertical-align="top" css-class="security-tip-icon">
-                <mj-image src="../imgs/brown-shield.svg" alt="Security Shield" width="56px" height="56px" padding="0" />
+            </mj-body>
+            <mj-body>
+              <mj-column width="34px" vertical-align="top" css-class="security-tip-icon">
+                <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
               </mj-column>
-
-              <mj-column vertical-align="top" width="100%" css-class="security-tip-content">
-                <mj-text font-weight="600" font-size="20px" color="#693D11" padding="0 0 8px 0">
-                  Security tip:
-                </mj-text>
-                <mj-text color="#693D11" padding="0">
-                  For security reasons, we recommend that you change your password after your first login. Doing this helps us protect your data and keep your account as secure as possible.
-                </mj-text>
+              <mj-column width="350px" padding="0">
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">O acesso a linhas de crédito e oportunidades financeiras se amplia.</mj-text>
+                <mj-divider border-color="#D0D5DD" border-width="1px" padding="24px 0 24px 0" />
               </mj-column>
-            </mj-group> -->
+            </mj-body>
+            <mj-body>
+              <mj-column width="34px" vertical-align="top" css-class="security-tip-icon">
+                <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
+              </mj-column>
+              <mj-column width="350px" padding="0">
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D" font-weight="500">A gestão da conta fica centralizada em um só lugar, com mais segurança e praticidade.</mj-text>
+              </mj-column>
+            </mj-body>
           </mj-section>
         </mj-body>
 
+        <mj-body width="100%" css-class="partner-groups-container" padding="32px 0 0 0">
+          <mj-section background-color="#F2F4F7" border-radius="12px" padding="32px">
+            <mj-column>
+              <mj-text>👉 Para aceitar o convite e ativar sua conta, basta clicar no botão abaixo:</mj-text>
+              <mj-button background-color="#6CC24A" color="#ffffff" font-size="16px" font-weight="600" border-radius="6px" href="https://seulink.com" align="center" padding="24px 0 0 0" inner-padding="16px 24px" width="100%">
+                ACEITAR CONVITE
+              </mj-button>
+            </mj-column>
+          </mj-section>
+        </mj-body>
 
-        <mj-text color="#667085" font-size="16px" padding="0 0 16px 0" align="center">
+        <mj-text color="#667085" font-size="16px" padding="48px 0 48px 0" align="center">
           Unidos, aumentamos o potencial de crescimento da Termloans e abrimos caminho para conquistar novas oportunidades de financiamento e investimento.
         </mj-text>
 
