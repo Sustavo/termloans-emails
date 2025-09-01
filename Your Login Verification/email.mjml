@@ -37,11 +37,6 @@
         text-decoration: underline !important;
       }
 
-      .team-signature {
-        font-weight: 700 !important;
-        color: #0A243D !important;
-      }
-
       .desktop-image {
         display: block !important;
       }
@@ -57,6 +52,20 @@
 
         .mobile-image {
           display: block !important;
+        }
+
+        .security-tip-group {
+          direction: column !important;
+        }
+
+        .security-tip-icon {
+          width: 100% !important;
+          text-align: center !important;
+          margin-bottom: 16px !important;
+        }
+
+        .security-tip-content {
+          width: 100% !important;
         }
       }
     </mj-style>
@@ -120,10 +129,10 @@
         </mj-text>
 
         <!-- Security Tip Section -->
-        <mj-body background-color="#FEF7EC" border-radius="12px">
+        <mj-body>
           <mj-section background-color="#FEF7EC" border-radius="12px" padding="32px">
-            <mj-group>
-              <mj-column width="56px" vertical-align="top">
+            <mj-group css-class="security-tip-group">
+              <mj-column width="56px" vertical-align="top" css-class="security-tip-icon">
                 <mj-image src="../imgs/brown-shield.svg" alt="Security Shield" width="56px" height="56px" padding="0" />
               </mj-column>
 
@@ -153,14 +162,14 @@
           Best regards,
         </mj-text>
 
-        <mj-text css-class="team-signature" font-size="18px" padding="0 0 48px 0">
+        <mj-text color="#0A243D" font-weight="700" font-size="18px" padding="0 0 48px 0">
           Termloans Team
         </mj-text>
       </mj-column>
     </mj-section>
 
     <!-- Footer Section -->
-    <mj-section background-color="#F2F4F7" border-radius="12px" padding="48px 0px">
+    <mj-section background-color="#F2F4F7" border-radius="12px" padding="48px 24px">
       <mj-column>
         <!-- Logo -->
         <mj-image src="../imgs/logo.svg" alt="Termloans Logo" width="192px" padding="0 0 32px 0" />
