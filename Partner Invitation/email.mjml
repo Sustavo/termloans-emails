@@ -1,0 +1,230 @@
+<mjml>
+  <mj-head>
+    <mj-title>Security Verification - Termloans</mj-title>
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Inter, Arial, sans-serif" />
+      <mj-text color="#667085" font-size="16px" line-height="24px" />
+      <mj-section background-color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      .verification-code {
+        font-size: 26px !important;
+        font-weight: 600 !important;
+        letter-spacing: 16px !important;
+        color: #0A243D !important;
+      }
+
+      .security-tip-title {
+        color: #693D11 !important;
+        font-weight: 600 !important;
+        font-size: 20px !important;
+      }
+
+      .security-tip-text {
+        color: #693D11 !important;
+        width: 100% !important;
+      }
+
+      .link-green {
+        color: #70C039 !important;
+        text-decoration: none !important;
+      }
+
+      .link-blue {
+        color: #0A243D !important;
+        font-weight: 600 !important;
+        text-decoration: underline !important;
+      }
+
+      .desktop-image {
+        display: block !important;
+      }
+
+      .mobile-image {
+        display: none !important;
+      }
+
+      @media only screen and (max-width: 640px) {
+        .desktop-image {
+          display: none !important;
+        }
+
+        .mobile-image {
+          display: block !important;
+        }
+
+        .security-tip-group {
+          direction: column !important;
+        }
+
+        .security-tip-icon {
+          width: 100% !important;
+          text-align: left !important;
+          margin-bottom: 16px !important;
+        }
+
+        .security-tip-content {
+          width: 100% !important;
+          text-align: left !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <!-- Main Content Section -->
+    <mj-section background-color="#ffffff" padding="16px 0">
+      <mj-column width="600px">
+        <!-- Hero Images (Responsive) -->
+        <mj-image src="../imgs/partner-invitation.svg" alt="Termloans Security" border-radius="8px" css-class="desktop-image" padding="0 0 44px 0" />
+        <mj-image src="../imgs/mobile-verification-code.svg" alt="Termloans Security" height="373px" border-radius="8px" css-class="mobile-image" padding="0 0 44px 0" />
+      </mj-column>
+      <mj-column width="100%" padding="0 72px">
+        <!-- Greeting -->
+        <mj-text font-size="20px" font-weight="600" color="#0A243D" padding="0 0 24px 0">
+          Hello, Chrystyan!
+        </mj-text>
+
+        <!-- Main Message -->
+        <mj-text color="#667085" font-size="16px" padding="0 0 16px 0">
+          <span style="color: #0A243D; font-weight: 500;">Kevin Figueiredo</span> acabou de criar uma conta na Termloans e convidou você para se juntar como sócio. 🚀
+        </mj-text>
+
+        <mj-text color="#667085" font-size="16px" padding="0 0 16px 0">
+          Aqui, vocês poderão gerenciar juntos tudo o que precisam em um só lugar, com segurança e transparência.
+        </mj-text>
+
+        <mj-text color="#667085" font-size="16px" padding="0 0 16px 0">
+          A presença de todos os sócios é fundamental para fortalecer o perfil da empresa e aumentar as chances de aprovação em financiamentos futuros. Quando todos os sócios estão conectados:
+        </mj-text>
+
+        <mj-body>
+          <mj-section background-color="#F2F4F7" border-radius="12px" padding="32px">
+            <mj-group>
+              <mj-column width="34px" vertical-align="top" css-class="security-tip-icon">
+                <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
+              </mj-column>
+              <mj-column width="350px" padding="0">
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D">A análise de crédito se torna mais rápida e transparente</mj-text>
+                <mj-divider border-color="#D0D5DD" border-width="1px" padding="24px 0 24px 0" />
+              </mj-column>
+            </mj-group>
+            <mj-group>
+              <mj-column width="34px" vertical-align="top" css-class="security-tip-icon">
+                <mj-image src="../imgs/green-check.svg" alt="Security Shield" width="34px" height="34px" padding="0" />
+              </mj-column>
+              <mj-column width="350px" padding="0">
+                <mj-text padding="0" padding-left="16px" font-size="14px" color="#0A243D">A empresa ganha mais credibilidade diante dos bancos e investidores</mj-text>
+                <mj-divider border-color="#D0D5DD" border-width="1px" padding="24px 0 24px 0" />
+              </mj-column>
+            </mj-group>
+
+            <!-- <mj-group css-class="security-tip-group">
+              <mj-column width="56px" vertical-align="top" css-class="security-tip-icon">
+                <mj-image src="../imgs/brown-shield.svg" alt="Security Shield" width="56px" height="56px" padding="0" />
+              </mj-column>
+
+              <mj-column vertical-align="top" width="100%" css-class="security-tip-content">
+                <mj-text font-weight="600" font-size="20px" color="#693D11" padding="0 0 8px 0">
+                  Security tip:
+                </mj-text>
+                <mj-text color="#693D11" padding="0">
+                  For security reasons, we recommend that you change your password after your first login. Doing this helps us protect your data and keep your account as secure as possible.
+                </mj-text>
+              </mj-column>
+            </mj-group> -->
+          </mj-section>
+        </mj-body>
+
+
+        <mj-text color="#667085" font-size="16px" padding="0 0 16px 0" align="center">
+          Unidos, aumentamos o potencial de crescimento da Termloans e abrimos caminho para conquistar novas oportunidades de financiamento e investimento.
+        </mj-text>
+
+
+        <!-- Security Tip Section -->
+        <mj-body>
+          <mj-section background-color="#FEF7EC" border-radius="12px" padding="32px">
+            <mj-group css-class="security-tip-group">
+              <mj-column width="56px" vertical-align="top" css-class="security-tip-icon">
+                <mj-image src="../imgs/brown-shield.svg" alt="Security Shield" width="56px" height="56px" padding="0" />
+              </mj-column>
+
+              <mj-column vertical-align="top" width="100%" css-class="security-tip-content">
+                <mj-text font-weight="600" font-size="20px" color="#693D11" padding="0 0 8px 0">
+                  Security tip:
+                </mj-text>
+                <mj-text color="#693D11" padding="0">
+                  For security reasons, we recommend that you change your password after your first login. Doing this helps us protect your data and keep your account as secure as possible.
+                </mj-text>
+              </mj-column>
+            </mj-group>
+          </mj-section>
+        </mj-body>
+
+        <!-- Support Contact Section -->
+        <mj-text color="#667085" font-size="18px" padding="32px 0 24px 0">
+          If you need assistance or have any questions, our <span class="link-blue">support team</span> is ready to help. Don't hesitate to contact us!
+        </mj-text>
+
+        <mj-text color="#667085" font-size="18px" padding="0 0 52px 0">
+          We're here to ensure your security and a smooth experience on the platform.
+        </mj-text>
+
+        <!-- Team Signature -->
+        <mj-text color="#667085" font-size="18px" padding="0 0 8px 0">
+          Best regards,
+        </mj-text>
+
+        <mj-text color="#0A243D" font-weight="700" font-size="18px" padding="0 0 48px 0">
+          Termloans Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section background-color="#F2F4F7" border-radius="12px" padding="48px 24px">
+      <mj-column>
+        <!-- Logo -->
+        <mj-image src="../imgs/logo.svg" alt="Termloans Logo" width="192px" padding="0 0 32px 0" />
+
+        <!-- Divider -->
+        <mj-divider border-color="#D0D5DD" border-width="1px" padding="0 0 16px 0" />
+
+        <!-- Social Media Icons -->
+        <mj-body>
+          <mj-group width="100%">
+            <mj-column width="20%">
+              <mj-image src="../imgs/facebook.svg" alt="Facebook" width="24px" height="24px" padding="0" />
+            </mj-column>
+            <mj-column width="20%">
+              <mj-image src="../imgs/Instagram.svg" alt="Instagram" width="24px" height="24px" padding="0" />
+            </mj-column>
+            <mj-column width="20%">
+              <mj-image src="../imgs/Youtube.svg" alt="YouTube" width="24px" height="24px" padding="0" />
+            </mj-column>
+            <mj-column width="20%">
+              <mj-image src="../imgs/Twitter.svg" alt="Twitter" width="24px" height="24px" padding="0" />
+            </mj-column>
+            <mj-column width="20%">
+              <mj-image src="../imgs/linkedin.svg" alt="LinkedIn" width="24px" height="24px" padding="0" />
+            </mj-column>
+          </mj-group>
+        </mj-body>
+
+        <!-- Divider -->
+        <mj-divider border-color="#D0D5DD" border-width="1px" padding="16px 0 32px 0" />
+
+        <!-- Copyright -->
+        <mj-text color="#667085" font-size="16px" align="center" padding="0 0 12px 0">
+          ©2025 Termloans | https://www.termloans.com
+        </mj-text>
+
+        <!-- Legal Disclaimer -->
+        <mj-text color="#667085" font-size="16px" align="center" padding="0">
+          TermLoans.com is owned and operated by Term Loans Corp. TermLoans.com will be paid a fee from the providers if you obtain a loan, financial product, or service through the marketplace. All rates, terms, and conditions vary by provider. <span class="link-blue">See terms</span>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

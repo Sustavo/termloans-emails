@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-email": "mjml \"Your Login Verification/email.mjml\" -o \"Your Login Verification/email.html\""
+    "build-email": "mjml \"Partner Invitation/email.mjml\" -o \"Partner Invitation/email.html\""
   },
   "keywords": [],
   "author": "",
